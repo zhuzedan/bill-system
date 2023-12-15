@@ -1,0 +1,12 @@
+/front/dist
+/front/node_modules
+/back/target
+/back/out
+/back/work
+/back/logs
+/backend/.idea/
+/backend/src/main/resources/rebel.xml
+/logs/
+/backend/backend.iml
+/backend/bill-system.iml
+/.idea/
