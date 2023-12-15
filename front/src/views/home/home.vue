@@ -18,10 +18,8 @@
           </div>
           <!--时间，上下布局 -->
           <div class="bottom">
-            <!--年月日 -->
-            <span class="showtime">{{ showtime }}</span>
-            <!--时分 -->
-            <span class="showtime2">{{ showtime2 }}</span>
+            <!--年月日时分 -->
+            <span class="showtime">{{ showtime }} {{ showtime2 }}</span>
           </div>
         </div>
         <!--三层标题 -->
@@ -202,19 +200,17 @@ export default {
   justify-content: space-between;
 }
 .showtime {
-  font-family: Microsoft YaHei;
   font-size: 22px;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
+  color: #000;
   font-weight: 100;
   text-align: center;
 }
 .showtime2 {
-  font-family: Microsoft YaHei;
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: rgb(255, 255, 255);
+  color: #000;
   text-align: center;
 }
 .homeThreeIcon {
@@ -264,7 +260,7 @@ export default {
   margin-top: 7vh;
   text-align: left;
   font-size: 16px;
-  color: #e6e6e6;
+  color: #c91b1b;
   text-decoration: underline;
 }
 </style>

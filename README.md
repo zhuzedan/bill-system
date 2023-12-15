@@ -83,6 +83,8 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 ## 安装教程
 
+前端
+
 1.本机安装GIT，输入命令
 
 ```java
@@ -104,6 +106,14 @@ redis-server.exe redis.windows.conf
 6.使用idea导入back后端项目，maven方式导入，运行(默认1314端口)！
 
 7.运行项目，账号admin 密码123456
+
+后端
+
+1.安装redis，导入mysql
+
+2.启动main文件
+
+
 
 ## 开发模板介绍
 
