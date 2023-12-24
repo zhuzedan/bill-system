@@ -7,8 +7,8 @@
     <div class="sidebar-menu-con menu-bar" :style="{width: shrink ? '60px' : '220px', overflow: shrink ? 'visible' : 'auto'}">
         <shrinkable-menu :shrink="shrink" @on-change="handleSubmenuChange" :theme="menuTheme" :before-push="beforePush" :open-names="openedSubmenuArr" :menu-list="menuList">
             <div slot="top" class="logo-con">
-              <div v-show="!shrink" style="font-size: 30px; font-weight: bold; color: #aaa7c7">超市管理系统</div>
-              <div v-show="shrink" style="font-size: 30px; font-weight: bold; color: #aaa7c7">超</div>
+              <div v-show="!shrink" style="font-size: 30px; font-weight: bold; color: #a7b4c7">超市管理系统</div>
+              <div v-show="shrink" style="font-size: 30px; font-weight: bold; color: #a7b4c7">超</div>
             </div>
         </shrinkable-menu>
     </div>
