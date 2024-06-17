@@ -4,9 +4,7 @@
         <!-- 头部 -->
         <div class="loginUp">
             <div class="loginLeft">
-                <img src="../assets/login/logo.png" alt="" srcset="">
-                <span class="line"></span>
-                <span class="title">超市账单管理系统</span>
+                超市账单管理系统
             </div>
         </div>
         <div class="loginMiddle">
